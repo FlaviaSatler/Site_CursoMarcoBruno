@@ -1,0 +1,32 @@
+.navigation > .action {
+    display: inline-block;
+    font-size: 15.5px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.navigation > .action:not(:last-of-type) {
+    margin-right: 13px;
+}
+
+.navigation > .action::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary);
+    transform-origin: center;
+    transform: scaleX(0);
+
+    transition: transform 200ms linear;
+}
+
+.navigation > .action:hover::after {
+    transform: scaleX(1);
+}
+
+.navigation > .action.-active::after {
+    transform: scaleX(1);
+}
