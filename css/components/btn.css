@@ -15,6 +15,10 @@
     box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.6);
     
     transition: background-color 200ms linear;
+
+    position: fixed;
+    bottom: 0;
+    
 }
 
 .btn:hover {
