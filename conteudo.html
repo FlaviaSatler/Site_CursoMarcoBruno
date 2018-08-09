@@ -14,29 +14,69 @@
     <link rel="stylesheet" href="css/spaces.css">
 
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/objects/title.css">
     
     
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/navigation.css">
+    <link rel="stylesheet" href="css/components/navigation-component.css">
     <link rel="stylesheet" href="css/components/featured.css">
     <link rel="stylesheet" href="css/components/btn.css">
+    <link rel="stylesheet" href="css/components/picture-component.css">
+
+   
 
       
 </head>
 <body class="-header">
     <header class="header">
-        <img class="logo" src="img/logo-collabcode.png" alt="Logo da CollabCode">
+        <a href="index.html">
+            <img class="logo" src="img/logo-collabcode.png" alt="Logo da CollabCode">
+        </a>
 
         <nav class="navigation">
-            <a class="action" href="conteudo.html">Conteúdo</a><!--
+            <a class="action -active" href="conteudo.html">Conteúdo</a><!--
          --><a class="action" href="">Como funciona</a><!--
          --><a class="action" href="">Contato</a>
         </nav>
     </header>
 
     <section>
-        <h1>O que será Feito?</h1>
+        <h1 class="title">O que será Feito?</h1>
+        <figure class="picture-component"> 
+            <img class="picture" src="http://via.placeholder.com/320x132" alt="Imagens dos Componentes possivelmente será gif">
+            <figcaption class="subtitle">
+                <a href=""> Clique aqui para acessar a demo</a>
+            </figcaption>
+        </figure>    
+
+        <ol class="navigation-component">
+            <li class="item -active">
+                <a href="" class="action">Botão</a>
+            </li>
+            <li class="item">
+                <a href="" class="action">Header Fixo</a>
+            </li>
+            <li class="item">
+                <a href="" class="action">Botão Fixo</a>
+            </li>
+            <li class="item">
+                <a href="" class="action">Modal / Alert Box</a>
+            </li>
+            <li class="item">
+                <a href="" class="action">Carousel</a>
+            </li>
+            <li class="item">
+                <a href="" class="action">Tagging</a>
+            </li>
+            <li class="item">
+                <a href="" class="action">Máscara de Formatação</a>
+            </li>
+        </ol>
+
     </section>
+
+
 
     <a href="https://apoia.se/collabcode" class="btn">Apoie</a>
 </body>
